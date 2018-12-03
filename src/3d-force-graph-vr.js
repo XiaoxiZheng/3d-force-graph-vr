@@ -99,7 +99,7 @@ export default Kapsule({
     // Add camera and cursor
     let cameraG;
     scene.appendChild(cameraG = document.createElement('a-entity'));
-    cameraG.setAttribute('position', '0 0 300');
+    cameraG.setAttribute('position', '0 0 100');
     cameraG.setAttribute('movement-controls', 'fly: true; speed: 7');
 
     let camera;
